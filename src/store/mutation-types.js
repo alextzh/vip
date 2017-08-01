@@ -1,0 +1,3 @@
+export const SET_WORD_LIST = 'SET_WORD_LIST'
+
+export const SET_ADVICE_LIST = 'SET_ADVICE_LIST'
