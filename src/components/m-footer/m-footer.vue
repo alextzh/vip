@@ -52,11 +52,13 @@
 <style scoped lang="stylus" rel="stylesheet/stylus">
   @import "~common/stylus/variable"
   .m-footer
-    position: relative
+    position: absolute
+    bottom: 0
     width: 100%
-    box-sizing: border-box
-    background: $color-background
+    height: 180px
+    z-index: 9
     .foot-link
+      position: relative
       height: 50px
       line-height: 50px
       padding: 0 20px
@@ -72,6 +74,7 @@
       width: 100%
       padding: 30px 15px
       box-sizing: border-box
+      background: $color-background
       .item
         position: relative
         float: left
@@ -121,7 +124,7 @@
           transition: all 0.3s
       .item:nth-child(3)
         cursor: pointer
-        &.item:nth-child(3):hover
+        &.item:nth-child(3):hover, &.item:nth-child(3):active
           .weixin-box
             bottom: 60px
             opacity: 1

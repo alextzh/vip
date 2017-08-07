@@ -174,13 +174,9 @@
   @import "~common/stylus/variable"
 
   .zhiyuan-operate
-    width: 100%
-    flex: 1
-    padding-top: 50px
-    position: relative
+    padding-bottom: 180px
     .banner
       width: 100%
-      overflow: hidden
       img
         max-width: 100%
         width: 100%
@@ -243,7 +239,7 @@
             .text:nth-child(2)
               position: relative
               cursor: pointer
-              &.text:nth-child(2):hover
+              &.text:nth-child(2):hover, &.text:nth-child(2):active
                 .weixin-box
                   bottom: 60px
                   opacity: 1

@@ -13,12 +13,10 @@
   @import "~common/stylus/variable"
   @import "~common/stylus/mixin"
   .joint-purchase
-    flex: 1
-    height: 100%
+    padding-bottom: 180px
     .banner
-      position: relative
       width: 100%
-      height: 100%
+      height: 100vh
       bg-image("ydhem", "jpg")
       background-size: cover
 </style>

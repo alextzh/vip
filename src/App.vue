@@ -20,8 +20,8 @@
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
   #app
+    position: relative
     min-height: 100%
+    height: auto !important
     height: 100%
-    display: flex
-    flex-direction: column
 </style>

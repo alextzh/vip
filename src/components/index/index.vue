@@ -13,12 +13,10 @@
   @import "~common/stylus/variable"
   @import "~common/stylus/mixin"
   .index
-    flex: 1
-    height: 100%
+    padding-bottom: 180px
     .banner
-      position: relative
+      height: 100vh
       width: 100%
-      height: 100%
       bg-image("banner", "jpg")
       background-size: cover
 </style>

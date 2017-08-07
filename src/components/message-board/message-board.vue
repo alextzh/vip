@@ -111,13 +111,9 @@
   @import "~common/stylus/variable"
   @import "~common/stylus/mixin"
   .message-board
-    width: 100%
-    flex: 1
-    padding-top: 50px
-    position: relative
+    padding-bottom: 180px
     .banner
       width: 100%
-      overflow: hidden
       img
         max-width: 100%
         width: 100%
