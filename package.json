@@ -68,9 +68,10 @@
     "webpack-dev-middleware": "^1.10.0",
     "webpack-hot-middleware": "^2.18.0",
     "webpack-merge": "^4.1.0",
-    "stylus":"^0.54.5",
-    "stylus-loader":"^3.0.1",
-    "bootstrap-styl": "^5.0.8"
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "bootstrap-styl": "^5.0.8",
+    "compression-webpack-plugin": "^1.0.0"
   },
   "engines": {
     "node": ">= 4.0.0",
